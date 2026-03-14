@@ -1,0 +1,30 @@
+﻿
+> insightgpt-frontend@0.1.0 build
+> next build
+
+  Γû▓ Next.js 14.2.3
+  - Environments: .env.local
+
+   Creating an optimized production build ...
+ Γ£ô Compiled successfully
+   Linting and checking validity of types ...
+   Collecting page data ...
+   Generating static pages (0/4) ...
+   Generating static pages (1/4) 
+   Generating static pages (2/4) 
+   Generating static pages (3/4) 
+ Γ£ô Generating static pages (4/4)
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (app)                              Size     First Load JS
+Γöî Γùï /                                    179 kB          272 kB
+Γöö Γùï /_not-found                          875 B          88.3 kB
++ First Load JS shared by all            87.4 kB
+  Γö£ chunks/23-e5cf3302bd4cbc01.js        31.6 kB
+  Γö£ chunks/fd9d1056-3db4e3e09c83fcaa.js  53.6 kB
+  Γöö other shared chunks (total)          2.18 kB
+
+
+Γùï  (Static)  prerendered as static content
+

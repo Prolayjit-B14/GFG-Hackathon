@@ -1,0 +1,174 @@
+﻿Collecting fastapi==0.111.0 (from -r requirements.txt (line 1))
+  Using cached fastapi-0.111.0-py3-none-any.whl.metadata (25 kB)
+Collecting uvicorn==0.29.0 (from uvicorn[standard]==0.29.0->-r requirements.txt (line 2))
+  Using cached uvicorn-0.29.0-py3-none-any.whl.metadata (6.3 kB)
+Collecting python-multipart==0.0.9 (from -r requirements.txt (line 3))
+  Using cached python_multipart-0.0.9-py3-none-any.whl.metadata (2.5 kB)
+Collecting pandas>=2.2.0 (from -r requirements.txt (line 4))
+  Downloading pandas-3.0.1-cp314-cp314-win_amd64.whl.metadata (19 kB)
+Collecting numpy>=1.26.0 (from -r requirements.txt (line 5))
+  Using cached numpy-2.4.3-cp314-cp314-win_amd64.whl.metadata (6.6 kB)
+Collecting google-generativeai>=0.5.4 (from -r requirements.txt (line 6))
+  Downloading google_generativeai-0.8.6-py3-none-any.whl.metadata (3.9 kB)
+Collecting python-dotenv==1.0.1 (from -r requirements.txt (line 7))
+  Downloading python_dotenv-1.0.1-py3-none-any.whl.metadata (23 kB)
+Collecting pydantic==2.7.1 (from -r requirements.txt (line 8))
+  Downloading pydantic-2.7.1-py3-none-any.whl.metadata (107 kB)
+Collecting openpyxl==3.1.2 (from -r requirements.txt (line 9))
+  Downloading openpyxl-3.1.2-py2.py3-none-any.whl.metadata (2.5 kB)
+Collecting httpx==0.27.0 (from -r requirements.txt (line 10))
+  Downloading httpx-0.27.0-py3-none-any.whl.metadata (7.2 kB)
+Collecting starlette<0.38.0,>=0.37.2 (from fastapi==0.111.0->-r requirements.txt (line 1))
+  Downloading starlette-0.37.2-py3-none-any.whl.metadata (5.9 kB)
+Collecting typing-extensions>=4.8.0 (from fastapi==0.111.0->-r requirements.txt (line 1))
+  Downloading typing_extensions-4.15.0-py3-none-any.whl.metadata (3.3 kB)
+Collecting fastapi-cli>=0.0.2 (from fastapi==0.111.0->-r requirements.txt (line 1))
+  Downloading fastapi_cli-0.0.24-py3-none-any.whl.metadata (6.4 kB)
+Collecting jinja2>=2.11.2 (from fastapi==0.111.0->-r requirements.txt (line 1))
+  Downloading jinja2-3.1.6-py3-none-any.whl.metadata (2.9 kB)
+Collecting ujson!=4.0.2,!=4.1.0,!=4.2.0,!=4.3.0,!=5.0.0,!=5.1.0,>=4.0.1 (from fastapi==0.111.0->-r requirements.txt (line 1))
+  Downloading ujson-5.12.0-cp314-cp314-win_amd64.whl.metadata (9.8 kB)
+Collecting orjson>=3.2.1 (from fastapi==0.111.0->-r requirements.txt (line 1))
+  Downloading orjson-3.11.7-cp314-cp314-win_amd64.whl.metadata (43 kB)
+Collecting email_validator>=2.0.0 (from fastapi==0.111.0->-r requirements.txt (line 1))
+  Downloading email_validator-2.3.0-py3-none-any.whl.metadata (26 kB)
+Collecting annotated-types>=0.4.0 (from pydantic==2.7.1->-r requirements.txt (line 8))
+  Downloading annotated_types-0.7.0-py3-none-any.whl.metadata (15 kB)
+Collecting pydantic-core==2.18.2 (from pydantic==2.7.1->-r requirements.txt (line 8))
+  Downloading pydantic_core-2.18.2.tar.gz (383 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Installing backend dependencies: started
+  Installing backend dependencies: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): still running...
+  Preparing metadata (pyproject.toml): finished with status 'error'
+py :   error: subprocess-exited-with-error
+At line:1 char:1
++ py -m pip install -r requirements.txt 2>&1 | 
+Out-File -FilePath pip_l ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (  e 
+   rror: subprocess-exited-with-error:String) [  
+  ], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  
+  Preparing metadata (pyproject.toml) did not 
+run successfully.
+  exit code: 1
+  
+  [50 lines of output]
+  Python reports SOABI: cp314-win_amd64
+  Computed rustc target triple: 
+x86_64-pc-windows-msvc
+  Installation directory: C:\Users\polu1\AppData\
+Local\puccinialin\puccinialin\Cache
+  Downloading rustup-init from https://static.rus
+t-lang.org/rustup/dist/x86_64-pc-windows-msvc/rus
+tup-init.exe
+  Checking for Rust toolchain....
+  Rust not found, installing into a temporary 
+directory
+  
+  Downloading rustup-init:   0%|          | 
+0.00/12.8M [00:00<?, ?B/s]
+  Downloading rustup-init:   3%|3         | 
+418k/12.8M [00:00<00:03, 4.12MB/s]
+  Downloading rustup-init:   7%|6         | 
+877k/12.8M [00:00<00:02, 4.37MB/s]
+  Downloading rustup-init:  10%|#         | 
+1.34M/12.8M [00:00<00:02, 4.31MB/s]
+  Downloading rustup-init:  14%|#4        | 
+1.84M/12.8M [00:00<00:02, 4.40MB/s]
+  Downloading rustup-init:  18%|#7        | 
+2.29M/12.8M [00:00<00:02, 4.45MB/s]
+  Downloading rustup-init:  22%|##1       | 
+2.76M/12.8M [00:00<00:02, 4.46MB/s]
+  Downloading rustup-init:  26%|##5       | 
+3.32M/12.8M [00:00<00:01, 4.77MB/s]
+  Downloading rustup-init:  30%|##9       | 
+3.83M/12.8M [00:00<00:01, 4.84MB/s]
+  Downloading rustup-init:  35%|###5      | 
+4.51M/12.8M [00:00<00:01, 5.43MB/s]
+  Downloading rustup-init:  40%|###9      | 
+5.07M/12.8M [00:01<00:01, 5.41MB/s]
+  Downloading rustup-init:  45%|####4     | 
+5.72M/12.8M [00:01<00:01, 5.70MB/s]
+  Downloading rustup-init:  50%|#####     | 
+6.43M/12.8M [00:01<00:01, 5.68MB/s]
+  Downloading rustup-init:  55%|#####5    | 
+7.07M/12.8M [00:01<00:00, 5.88MB/s]
+  Downloading rustup-init:  60%|######    | 
+7.69M/12.8M [00:01<00:00, 5.95MB/s]
+  Downloading rustup-init:  65%|######4   | 
+8.29M/12.8M [00:01<00:00, 5.67MB/s]
+  Downloading rustup-init:  69%|######9   | 
+8.90M/12.8M [00:01<00:00, 5.79MB/s]
+  Downloading rustup-init:  75%|#######4  | 
+9.59M/12.8M [00:01<00:00, 5.78MB/s]
+  Downloading rustup-init:  79%|#######9  | 
+10.2M/12.8M [00:04<00:03, 690kB/s]
+  Downloading rustup-init:  84%|########4 | 
+10.8M/12.8M [00:04<00:02, 941kB/s]
+  Downloading rustup-init:  88%|########8 | 
+11.3M/12.8M [00:04<00:01, 1.21MB/s]
+  Downloading rustup-init:  94%|#########3| 
+12.0M/12.8M [00:04<00:00, 1.64MB/s]
+  Downloading rustup-init:  99%|#########8| 
+12.6M/12.8M [00:04<00:00, 2.12MB/s]
+  Downloading rustup-init: 100%|##########| 
+12.8M/12.8M [00:04<00:00, 2.57MB/s]
+  Installing rust to C:\Users\polu1\AppData\Local
+\puccinialin\puccinialin\Cache\rustup
+  warn: It looks like you have an existing 
+rustup settings file at:
+  warn: C:\Users\polu1\.rustup\settings.toml
+  warn: Rustup will install the default 
+toolchain as specified in the settings file,
+  warn: instead of the one inferred from the 
+default host triple.
+  warn: installing msvc toolchain without its 
+prerequisites
+  info: profile set to minimal
+  info: default host triple is 
+x86_64-pc-windows-msvc
+  info: syncing channel updates for 
+stable-x86_64-pc-windows-msvc
+  info: latest update on 2026-03-05 for version 
+1.94.0 (4a4ef493e 2026-03-02)
+  info: downloading 3 components
+  info: default toolchain set to 
+stable-x86_64-pc-windows-msvc
+  Checking if cargo is installed
+  cargo 1.94.0 (85eff7c80 2026-01-15)
+  
+  Cargo, the Rust package manager, is not 
+installed or is not on PATH.
+  This package requires Rust and Cargo to 
+compile extensions. Install it through
+  the system's package manager or via 
+https://rustup.rs/
+  
+  [end of output]
+  
+  note: This error originates from a subprocess, 
+and is likely not a problem with pip.
+
+[notice] A new release of pip is available: 25.3 
+-> 26.0.1
+[notice] To update, run: C:\Users\polu1\AppData\L
+ocal\Programs\Python\Python314\python.exe -m pip 
+install --upgrade pip
+error: metadata-generation-failed
+
+Encountered error while generating package 
+metadata.
+
+pydantic-core
+
+note: This is an issue with the package 
+mentioned above, not pip.
+hint: See above for details.
